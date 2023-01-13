@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About Me</h1>
+        <img src="img/profile-pic.jpg" alt="Profile Picture" width="100%">
+        <p>My name is Saif Uddin khan and I am a front-end designer with 1 years of experience. I specialize in creating visually stunning and user-friendly designs for websites.</p>
+      </section>
+      <section id="work">
+        <h1>My Work</h1>
+        <ul>
+          <li>
+            <h2>Project 1</h2>
+            <img src="img/project-1.jpg" alt="Project 1">
+            <p>It was an old facebook login page and I designed it with HTML .</p>
+            <a href="https://saifuddin21.github.io/HTML-Project/">View project</a>
+          </li>
+          <li>
+            <h2>Project 2</h2>
+            <img src="img/porject-2.jpg" alt="Project 2">
+            <p>This a business site, made for a clothing brand.This site is made by Bootstrap...</p>
+            <a href="https://saifuddin21.github.io/Bootstrap/">View project</a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Saif Uddin Khan</p>
+    </footer>
+  </body>
+</html>
